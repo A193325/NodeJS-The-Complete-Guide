@@ -1,0 +1,19 @@
+const name = "max";
+let age = 29;
+const hasHobbies = true;
+
+age = 30;
+
+const sumarizeUser = (userName, userAge, userHasHobby) => {
+  return `Name is ${userName}, age is ${userAge} and the user has hobbies: ${
+    userHasHobby ? "yes" : "no"
+  }.`;
+}
+const add = (a, b) => a+b;
+const addOne = a => a+1;
+
+console.log(add(1,2));
+
+console.log(addOne(10));
+
+console.log(sumarizeUser(name, age, hasHobbies));
